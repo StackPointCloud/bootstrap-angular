@@ -1,0 +1,20 @@
+/* Custom CSS */
+
+/* 	According to the instructions on,
+	http://getbootstrap.com/javascript/#affix 
+
+	Use the affix plugin via data attributes 
+	or manually with your own JavaScript. 
+	In both situations, 
+	you must 
+	- provide CSS 
+	-- for the positioning 
+	-- and width 
+	of your affixed content.
+
+	*/
+.navbar-example {
+	background-color: red;
+	position: relative;
+	width: 200px;
+}

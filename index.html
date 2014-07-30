@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
   <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="/css/custom.css">
 <!--   <link rel="stylesheet" type="text/css" href="/css/bootstrap-theme.css"> -->
 
 	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.js"></script>
@@ -20,7 +21,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar-example">
 	<div class="container">
 	<div class="row">
 	<div class="col-sm-12">
@@ -47,7 +48,7 @@
 	</div> <!-- /col -->
 	</div> <!-- /row -->
 	<div class="row">
-	<div class="col-sm-2">
+	<div class="col-sm-2 navbar-example" data-spy="affix" data-offset-top="40" data-offset-bottom="200">
 		<ul>
 			<li>Uno</li>
 			<li>Dos</li>
