@@ -18,3 +18,14 @@
 	position: relative;
 	width: 200px;
 }
+
+/* Get er' done */
+.header {
+	height: 60px;
+	background-color: #909090;
+}
+
+.header h1 {
+	color: white;
+	margin: 10px auto;
+}
