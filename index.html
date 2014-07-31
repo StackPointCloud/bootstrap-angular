@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="benben">
  <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -32,28 +32,20 @@
 		</ul>
 		</div><!--  /affix -->
 	</div> <!-- /col -->
-	<div class="col-sm-10">
-		<h1>Lorem ipsum dolor sit amet, </h1>
-		<p>consectetur adipiscing elit. Nullam gravida urna faucibus lacus luctus mollis. Aliquam quis aliquam nunc, nec volutpat quam. Nunc mauris augue, auctor id augue vel, eleifend pretium metus. Morbi a nulla quis risus posuere feugiat sed sed urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum leo in felis pulvinar, at adipiscing massa lobortis. Aliquam at vehicula ligula. Proin at porttitor eros. Quisque tincidunt, nisi malesuada lobortis tristique, leo diam ornare nisl, id tempus ligula lacus sit amet enim. Duis at est non libero semper sagittis id sed nunc. Praesent eget nunc sed mi vehicula egestas sollicitudin vel sem. Donec massa justo, rhoncus vitae consectetur in, mattis sed lorem. Mauris eget euismod augue. Curabitur aliquet sit amet ligula at porttitor. Duis non auctor risus. Sed sollicitudin enim tortor, id viverra magna commodo ut.
-		</p>
-		<h1>Phasellus vitae</h1>
-		<p>ipsum congue dui cursus lacinia at a risus. Nunc nibh sem, elementum in metus nec, pharetra fermentum mi. Proin porta dolor mauris, at molestie nulla vulputate vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel urna velit. Integer tristique sem non nunc volutpat, sed facilisis sapien consequat. Donec risus neque, adipiscing eget lacinia in, tempus id arcu.
-		</p>
-		<h1>In hac</h1>
-		<p>habitasse platea dictumst. Duis non lectus in diam pellentesque interdum ut eget risus. Nulla congue sit amet libero et sagittis. Donec et adipiscing elit. Cras ligula lacus, eleifend non rutrum eu, sollicitudin eget tortor. Sed euismod lorem nec ante facilisis feugiat. Aenean porta elit eu cursus mattis.
-		</p>
-		<h1>Nullam pellentesque</h1>
-		<p>eleifend enim vitae euismod. Aenean dapibus arcu tincidunt, euismod felis vitae, feugiat massa. Ut sit amet dolor sapien. Morbi malesuada mollis arcu ac dictum. Nunc sagittis consequat augue. Pellentesque placerat hendrerit quam. Praesent sed ante est.
-		</p>
-		<h1>Donec eget enim</h1>
-		<p>vitae est facilisis pharetra. In facilisis hendrerit luctus. Etiam neque elit, posuere vitae pellentesque sit amet, consequat non nunc. Donec tempus ante at quam dictum imperdiet. Nulla magna mi, rhoncus ut semper nec, molestie vitae dolor. Integer et libero felis. Fusce et bibendum urna, a vehicula felis. Cras in purus at lacus suscipit accumsan eu et dui. Aenean elementum, lacus porta lacinia aliquam, quam mi vehicula libero, viverra ullamcorper velit purus nec libero.
-	</p>	
+	<div class="col-sm-10" ng-view>
+
 	</div> <!-- /col -->
 	</div> <!-- /row -->
 	</div> <!-- /container -->
 
 	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.js"></script>
 	<script type="text/javascript" src="/js/libs/bootstrap.js"></script>
+
+	<script type="text/javascript" src="/js/libs/angular.min.js"></script>
+  	<script type="text/javascript" src="/js/libs/angular-route.min.js"></script>
+	<script type="text/javascript" src="/js/app.js"></script>
+	<script type="text/javascript" src="/js/controllers.js"></script>
+
 
 </body>
 

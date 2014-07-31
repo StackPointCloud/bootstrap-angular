@@ -29,6 +29,6 @@ benben.config(['$routeProvider',
         controller:  'apiSpecCtrl' 
       }).
       otherwise({
-        redirectTo: '/api'
+        redirectTo: '/home'
       });
   }]);
