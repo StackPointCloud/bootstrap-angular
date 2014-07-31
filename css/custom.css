@@ -14,7 +14,6 @@
 
 	*/
 .navbar-example {
-	background-color: red;
 	position: relative;
 	width: 180px;
 	padding-top: 30px;
@@ -24,13 +23,34 @@
 	top: 0;
 }
 
+.navbar-example a {color: #34b5d0}/* PB */
+
 /* Get er' done */
 .header {
 	height: 60px;
-	background-color: #000;
+	/*background-color: #000;*/
+	background-color: #34b5d0; /* PB */
 }
 
 .header h1 {
 	color: white;
 	margin: 10px auto;
+}
+
+.bg-warning {
+	padding: 10px 20px;
+	margin: 15px auto;
+	border-radius: 6px;
+}
+
+samp {
+	background-color: #eee;
+	/* padding and border-radius match kbd */
+	padding: 2px 4px;
+	border-radius: 3px;
+}
+
+.caps {
+	text-transform: uppercase;
+	font-weight: bold;
 }

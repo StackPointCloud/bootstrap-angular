@@ -5,6 +5,10 @@
 
 'use strict';
 
+$(document).ready(function() {
+  $.ajaxSetup({ cache: false });
+});
+
 // let's create the ng-app
 var benben = angular.module('benben', [
   'ngRoute',

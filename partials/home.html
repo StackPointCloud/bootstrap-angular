@@ -1,17 +1,59 @@
-<div ng-repeat="specification in lorem.specifications">
-	<h1 id="#{{specification.name}}">{{specification.name}}</h1>
-	<p>{{specification.content}}</p>
+<p class="bg-warning">This is an experimental area focused on front-end implementation challenges. The content is likely outdated and things won't always match up.</p>
+
+<h1>Halo World</h1>
+
+<div>
+<kbd>
+$ more code-samples.txt
+</kbd>
+</div>	
+<div>
+<samp>
+//= require example
+</samp>
 </div>
 
-<h1>Phasellus vitae</h1>
-<p>ipsum congue dui cursus lacinia at a risus. Nunc nibh sem, elementum in metus nec, pharetra fermentum mi. Proin porta dolor mauris, at molestie nulla vulputate vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel urna velit. Integer tristique sem non nunc volutpat, sed facilisis sapien consequat. Donec risus neque, adipiscing eget lacinia in, tempus id arcu.
-</p>
-<h1>In hac</h1>
-<p>habitasse platea dictumst. Duis non lectus in diam pellentesque interdum ut eget risus. Nulla congue sit amet libero et sagittis. Donec et adipiscing elit. Cras ligula lacus, eleifend non rutrum eu, sollicitudin eget tortor. Sed euismod lorem nec ante facilisis feugiat. Aenean porta elit eu cursus mattis.
-</p>
-<h1>Nullam pellentesque</h1>
-<p>eleifend enim vitae euismod. Aenean dapibus arcu tincidunt, euismod felis vitae, feugiat massa. Ut sit amet dolor sapien. Morbi malesuada mollis arcu ac dictum. Nunc sagittis consequat augue. Pellentesque placerat hendrerit quam. Praesent sed ante est.
-</p>
-<h1>Donec eget enim</h1>
-<p>vitae est facilisis pharetra. In facilisis hendrerit luctus. Etiam neque elit, posuere vitae pellentesque sit amet, consequat non nunc. Donec tempus ante at quam dictum imperdiet. Nulla magna mi, rhoncus ut semper nec, molestie vitae dolor. Integer et libero felis. Fusce et bibendum urna, a vehicula felis. Cras in purus at lacus suscipit accumsan eu et dui. Aenean elementum, lacus porta lacinia aliquam, quam mi vehicula libero, viverra ullamcorper velit purus nec libero.
-</p>
+<h2 name="HTTPRESTRequests">HTTP REST Requests</h2>
+<table class="table">
+<thead>
+	<tr>
+	<th class="col-md-1">Request</th>
+	<th class="col-md-6">Description</th>
+	<th class="col-md-5"></th>
+	</tr>
+</thead>
+<tr>
+	<td class="caps">Get</td>
+	<td>Retrieve single resource or list of resources from a collection. 
+	<br>Query string parameters should allow list filtering.</td>
+	<td><samp>GET /datacenters?region=EUROPE&amp;lname=Tes</samp></td>
+</tr>
+<tr>
+	<td class="caps">Post</td>
+	<td>Creates a new resource.<br>
+	The “Location” HTTP header should return a URL to the newly created resource.</td>
+	<td></td>
+</tr>
+<tr>
+	<td class="caps">Put</td>
+	<td>Update an existing object.</td>
+	<td></td>
+</tr>
+<tr>
+	<td class="caps">Delete</td>
+	<td>Delete an existing resource.</td>
+	<td></td>
+</tr>
+<tr>
+	<td class="caps">Options</td>
+	<td>Returns the “Allow” HTTP header identifying which HTTP requests are permitted against specified resource.</td>
+	<td></td>
+</tr>
+
+</table>
+
+<div ng-repeat="specification in lorem.specifications">
+	<h2 name="{{specification.name}}">{{specification.name}}</h2>
+	<p>{{specification.content}}</p>
+</div>
+ 
