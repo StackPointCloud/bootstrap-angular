@@ -1,5 +1,8 @@
-<h1>{{lorem.label}}</h1>
-<p>{{lorem.content}}</p>
+<div ng-repeat="specification in lorem.specifications">
+	<h1 id="#{{specification.name}}">{{specification.name}}</h1>
+	<p>{{specification.content}}</p>
+</div>
+
 <h1>Phasellus vitae</h1>
 <p>ipsum congue dui cursus lacinia at a risus. Nunc nibh sem, elementum in metus nec, pharetra fermentum mi. Proin porta dolor mauris, at molestie nulla vulputate vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel urna velit. Integer tristique sem non nunc volutpat, sed facilisis sapien consequat. Donec risus neque, adipiscing eget lacinia in, tempus id arcu.
 </p>
